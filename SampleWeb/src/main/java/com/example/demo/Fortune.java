@@ -10,7 +10,7 @@ public class Fortune {
 		double fn=Math.random();
 		if(fn>=0.7) {
 			return "greatFortune.html";			
-		}else if(fn>=0.5) {
+		}else if(fn>=0.6) {
 			return "middleFortune.html";
 		}else {
 			return "missFortune.html";
